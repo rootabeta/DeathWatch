@@ -48,7 +48,7 @@ def parseNations(mainNation, region, days):
                     print(f"{nation.find('NAME').text} last logged in {numDays} days ago")
                     numOld += 1
 
-    print("Identified {numOld} nations who have logged in more than {days} days ago")
+    print(f"Identified {numOld} nations who have logged in more than {days} days ago")
 
 
 def main():
